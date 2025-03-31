@@ -45,7 +45,7 @@ nav {
   padding: 90px;
   grid-area: timeline;
   /* esta sendo usando o overflow apenas no lado timeline, para dar efeito de rolagem apenas desse lado.*/
-  overflow-y: 100vh;
+  overflow-y: scroll; /* deixar com scroll, para rolar apenas um lado, deixando o outro fixo*/
   animation: entering 0.7s ease-in-out;
 }
 
